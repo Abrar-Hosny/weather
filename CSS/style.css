@@ -17,5 +17,45 @@ nav .container img{
 
 
 main { 
-    background-image: url();
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+}
+
+ .seacrh input{
+    background-color: #1E202B;
+    position: relative;
+    
+    
+}
+
+ .seacrh input:focus{
+    background-color:#1E202B ;
+
+}
+ .seacrh button{
+left: 68%;
+}
+
+
+
+.form-control::placeholder{
+    color: gray;
+}
+
+
+footer{
+    background-color: #262936;
+}
+
+footer .icons .icon {
+    background-color: #262936;
+    
+}
+footer .icons .icon:hover {
+    background-color: #009AD8;
+    
+}
+footer .icons .icon:hover  i{
+    color: white !important;
+    
 }
