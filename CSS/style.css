@@ -38,6 +38,20 @@ left: 68%;
 
 
 
+main .display .row div .item  .card .card-header{
+    background-color: #2D303D;
+    color: white;
+
+
+}
+main .display .row div .item  .card {
+    background-color: #323544;
+    color: white;
+    height: 400px;
+
+}
+
+
 .form-control::placeholder{
     color: gray;
 }
@@ -59,3 +73,64 @@ footer .icons .icon:hover  i{
     color: white !important;
     
 }
+
+
+
+
+/*
+
+ 
+              
+          <!-- ="=================""" -->
+            <div class="col-lg-4">
+            <div class="item">
+              <div class="card" style="width: 18rem;">
+                <div class="card-header" >
+                  <p class="text-center">🇸unday</p>
+                </div>
+               <div class="p-4 text-center">
+                <p>Alex</p>
+                <h4 class="fs-1">27.0*C</h4>
+                <i>Icon</i>
+                <p>clear</p>
+                
+            </div>
+          </div>
+            </div>
+        </div>
+      
+
+
+         
+            <div class="col-lg-4">
+            <div class="item">
+              <div class="card" style="width: 18rem;">
+                <div class="card-header" >
+                  <p class="text-center">🇸unday</p>
+                </div>
+               <div class="p-4 text-center">
+                <p>Alex</p>
+                <h4 class="fs-1">27.0*C</h4>
+                <i>Icon</i>
+                <p>clear</p>
+                
+            </div>
+          </div>
+            </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
