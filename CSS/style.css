@@ -1,11 +1,20 @@
+:root{
+    --dark-blue : #1E202B ;
+    --darkly-blue : #2D303D ;
+    --black-blue: #323544 ; 
+    --dark-baby-blue : #009AD8; 
+    --blacky-blue : #262936 ;
+
+}
+
 body{
-background-color: #1E202B;
+background-color: var(--dark-blue);
 }
 
 
 .navbar .container .nav-items ul li a:hover , .navbar .container .nav-items ul li a:active {
-    border-color: #009AD8 !important;
-    color: #009AD8 !important;
+    border-color: var(--dark-baby-blue) !important;
+    color: var(--dark-baby-blue)!important;
 
 } 
 
@@ -22,14 +31,14 @@ main {
 }
 
  .seacrh input{
-    background-color: #1E202B;
+    background-color: var(--dark-blue);
     position: relative;
     
     
 }
 
  .seacrh input:focus{
-    background-color:#1E202B ;
+    background-color:var(--dark-blue) ;
 
 }
  .seacrh button{
@@ -39,13 +48,13 @@ left: 68%;
 
 
 main .display .row div .item  .card .card-header{
-    background-color: #2D303D;
+    background-color: var(--darkly-blue);
     color: white;
 
 
 }
 main .display .row div .item  .card {
-    background-color: #323544;
+    background-color: var(--black-blue);
     color: white;
     height: 400px;
 
@@ -58,15 +67,15 @@ main .display .row div .item  .card {
 
 
 footer{
-    background-color: #262936;
+    background-color: var(--black-blue);
 }
 
 footer .icons .icon {
-    background-color: #262936;
+    background-color: var(--blacky-blue);
     
 }
 footer .icons .icon:hover {
-    background-color: #009AD8;
+    background-color: var(--dark-baby-blue);
     
 }
 footer .icons .icon:hover  i{
@@ -75,6 +84,11 @@ footer .icons .icon:hover  i{
 }
 
 
+.main .inputs div input , .main .inputs div textarea{
+    background-color: var(--blacky-blue);
+ 
+
+}
 
 
 /*
