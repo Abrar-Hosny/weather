@@ -94,6 +94,14 @@ footer .icons .icon:hover  i{
 
 
 @media (min-width: 768px) {
+    .input1-style{
+        width: 60%;
+        margin: auto;
+    }
+    .input2-style{
+        width: 70%;
+        margin: auto;
+    }
 
 
 }
