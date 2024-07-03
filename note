@@ -30,6 +30,7 @@ navigator.geolocation.getCurrentPosition(gotLocation);
 
 function getDate (date){
     var  nameOfDay = new Date(date) ; 
+    var monthName = nameOfDay.getMonth(); 
     var dayNumber = nameOfDay.getDate();
     var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var monthNames = [
@@ -37,7 +38,6 @@ function getDate (date){
       "July", "August", "September", "October", "November", "December"
     ];
     var dayName = daysOfWeek[nameOfDay.getDay()];
-    var monthName = monthNames[nameOfDay.getMonth()];
     
     return {dayNumber:dayNumber , monthName : monthName , dayName:dayName} ;
     }
@@ -92,8 +92,8 @@ function display(x) {
           <div class="item">
         <div class="card w-100 pb-4 ">
                        <div class="card-header d-flex justify-content-between" >
-                         <p>${getDate(x.forecast.forecastday[0].date).dayName}</p>
-                         <p>${getDate(x.forecast.forecastday[0].date).dayNumber} <span>${getDate(x.forecast.forecastday[0].date).monthName}</span></p>
+                         <p>${getDate(x.forecast.forecastday[0].date)}</p>
+                         <p>29 June</p>
                    
                         </div>
      
@@ -130,7 +130,7 @@ function display(x) {
           <div class="item">
             <div class="card w-100 pb-5">
               <div class="card-header" >
-                <p class="text-center">${getDate(x.forecast.forecastday[1].date).dayName}</p>
+                <p class="text-center">${getDate(x.forecast.forecastday[1].date)}</p>
               </div>
              <div class="p-4 text-center">
                <img src=${x.forecast.forecastday[1].day.condition.icon}>
@@ -149,7 +149,7 @@ function display(x) {
         <div class="item">
           <div class="card w-100 pb-5">
             <div class="card-header" >
-              <p class="text-center">${getDate(x.forecast.forecastday[2].date).dayName}</p>
+              <p class="text-center">${getDate(x.forecast.forecastday[2].date)}</p>
             </div>
            <div class="p-4 text-center">
  <img src=${x.forecast.forecastday[2].day.condition.icon}>
