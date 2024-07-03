@@ -91,6 +91,10 @@ footer .icons .icon:hover  i{
 
 }
 
+.active{
+    border-color: var(--dark-baby-blue) !important;
+    color: var(--dark-baby-blue)!important;
+}
 
 
 @media (min-width: 768px) {
