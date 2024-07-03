@@ -97,15 +97,15 @@ function display(x) {
                    <p>${x.current.condition.text}</p>
                       </div>
                        <div class="d-flex">
-                         <div>
+                         <div class="p-3">
                            <img src="../images/icon-umberella.png" alt="umberella">
                            <span>${x.current.temp_f}%</span>
                          </div>
-                         <div>
+                         <div div class="p-3">
                            <img src="../images/icon-wind.png" alt="umberella">
                            <span>${x.current.wind_kph}Km/h</span>
                          </div>
-                         <div>
+                         <div div class="p-3">
                            <img src="../images/icon-compass.png" alt="umberella">
                            <span>${x.current.wind_dir}</span>
                          </div>
