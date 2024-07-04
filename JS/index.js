@@ -14,7 +14,7 @@ long = position.coords.longitude;
 }
 
 async function getLoctaion(lat , long){
-  var req= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=51d6791ef4a44063915235132242806&q=${long},${lat}&days=7`); 
+  var req= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=51d6791ef4a44063915235132242806&q=${long},${lat}&days=7`); 
   var data = await req.json(); 
   console.log(data);
   
@@ -49,7 +49,7 @@ function getDate (date){
 
 
   async function getWeather(countryName) {
-    var request2 = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=51d6791ef4a44063915235132242806&q=${countryName}&days=7`); 
+    var request2 = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=51d6791ef4a44063915235132242806&q=${countryName}&days=7`); 
     var data2 = await request2.json();
 
   try{
